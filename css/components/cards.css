@@ -22,7 +22,7 @@
 }
 
 .cards__text-color {
-    color: #3d3d3d;
+    color: hsl(206, 11%, 55%);
 }
 
 .cards__second {
@@ -36,17 +36,20 @@
 }
 
 
-/* @media screen (min-width: 375px) {
-    .cards__first {
+
+
+@media only screen and (min-width: 375px) {
+        .cards {
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        'picture text'
-    }
-    .cards__second {
+        grid-template-areas:
+        'picture text';
+    }  
+
+    .cards__change {
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        'text picture'
-    }
+        grid-template-areas:
+        'text picture';
 }
-*/
+}
+
   
