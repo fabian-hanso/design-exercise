@@ -42,14 +42,60 @@
         .cards {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-        'picture text';
+        'text picture ';
     }  
 
     .cards__change {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-        'text picture';
+        'picture text';
+    }
 }
+
+.community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    box-shadow: 0px 0px 10px #dedede;
+    padding: 30px 30px 50px 30px;
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+
+
+  }
+
+@media only screen and (min-width: 375px) { 
+    .community__mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px; 
+        box-shadow: 0px 0px 10px #dedede;
+        padding: 30px 50px 30px 50px;
+        width: 70%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+  }
 }
 
   
+.community__registration {
+      height: 2.5rem;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+      background-color: hsl(322, 100%, 66%); 
+      color: white;
+      border: hidden;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px #dedede;
+    
+  }
+
+
