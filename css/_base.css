@@ -1,32 +1,46 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-align: left; /* Verändert auf linksbündig */
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.4rem;
-    color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+/* h2 immer links im screen modus */
+@media only screen and (min-width: 375px) {
+  h2 {
+    text-align: left;
+  }
 }
 
 h3 {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
-    font-size: 1rem;
-    line-height: 1.6rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+@media only screen and (min-width: 375px) {
+  p {
+    text-align: left; /* Die Paragraphen im screen sind alle linksbündig */
+  }
 }
