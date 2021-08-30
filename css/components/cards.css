@@ -69,8 +69,8 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-
-
+    background-color: #fff;
+    bottom: -120px
 
   }
 
@@ -92,15 +92,14 @@
 
   
 .community__registration {
-      height: 2.5rem;
-      padding-left: 3.5rem;
-      padding-right: 3.5rem;
-      background-color: hsl(322, 100%, 66%); 
-      color: white;
-      border: hidden;
-      border-radius: 20px;
-      box-shadow: 0px 0px 10px #dedede;
-    
-  }
+    height: 2.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    background-color: hsl(322, 100%, 66%); 
+    color: white;
+    border: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #dedede;
+}
 
 
