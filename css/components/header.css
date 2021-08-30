@@ -1,105 +1,85 @@
 /* Generelle Stylings für den Header Bereich */
 
-
-header{
-    width:100vw;
-    height: 80vh;
-    background-image: url(../../design/images/bg-hero-mobile.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top;
-    padding-top: 15px;
-    background-color: #ECFAFF;
-    margin-bottom: 30px;
+.header {
+  background-image: url(../../design/images/bg-hero-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 15px;
+  background-color: #ecfaff;
+  margin-bottom: 30px;
 }
 
-nav{
-    /* margin-top: 35px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
+.header__nav {
+  /* margin-top: 35px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav img{
-    width: 150px;
-    margin-left: 25px;
-    
+.header__nav img {
+  width: 150px;
+  margin-left: 25px;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-    padding: 10px 30px;
-    background-color: white;
-    font-size: 0.8rem;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px #dedede;
-    margin-right: 5vw;
+.header__nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  background-color: white;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #dedede;
+  margin-right: 5vw;
 }
 
-.header__div{
-    padding: 5px 30px;
-    display: flex;
-    flex-direction: column;
-    text-align:center;
-    align-items:center;
-    margin-top: 30px;
+.header__div {
+  padding: 5px 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.header__first{
-    width: 100%;
-
+.header__first {
+  width: 100%;
 }
 
-.header__second{
-    width: 100%;
-
+.header__second {
+  width: 100%;
 }
 
 .header__second img {
-    width: 100%;
+  width: 100%;
 }
 
-.first__button{
-    margin-top: 10px;
-    padding: 10px 40px;
-    color:white;
-    background-color: hsl(322, 100%, 66%);
-    border-radius: 20px;
-    margin-bottom: 33px;
-    border: none;
+.first__button {
+  margin-top: 10px;
+  padding: 10px 40px;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 20px;
+  margin-bottom: 33px;
+  border: none;
 }
-
 
 @media only screen and (min-width: 376px) {
-    header{
-        width:100vw;
-        height: 80vh;
-        background-image: url(../../design/images/bg-hero-desktop.svg);
-        /* background-size: cover; */
-        background-repeat: no-repeat;
-        background-position: top;
-        padding-top: 15px;
-        background-color: #ECFAFF;
-        margin-bottom: 60px;
-    }
-    .header__div{
-        display: flex;
-        flex-direction: row;
-    }
+  header {
+    background-image: url(../../design/images/bg-hero-desktop.svg);
+    margin-bottom: 60px;
+  }
+  .header__div {
+    flex-direction: row;
+  }
 
-    .header__first{
-        width: 50%;
-        padding: 10px 20px;
-    
-    }
-    
-    .header__second{
-        width: 50%;
-        padding: 10px 20px;
-    
-    }
-    
+  .header__first {
+    width: 50%;
+    padding: 10px 20px;
+  }
+
+  .header__second {
+    width: 50%;
+    padding: 10px 20px;
+  }
 }
